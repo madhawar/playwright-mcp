@@ -3,7 +3,7 @@ import { BasePage } from './BasePage';
 import { Logger } from '../utils/logger';
 import { config } from '../config/env.config';
 
-export class contactPage extends BasePage {
+export class ContactPage extends BasePage {
     readonly usernameInput: Locator;
     readonly passwordInput: Locator;
     readonly loginButton: Locator;
